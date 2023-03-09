@@ -2,10 +2,10 @@ package com.poly.template.repository;
 
 import com.poly.template.entity.DongVat;
 import com.poly.template.util.HibernateUtil;
+import jakarta.persistence.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 
