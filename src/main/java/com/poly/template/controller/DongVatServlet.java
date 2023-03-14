@@ -23,7 +23,7 @@ import java.util.List;
         "/dong-vat/view-add", // GET
         "/dong-vat/detail"    // GET
 })
-public class DongVatController extends HttpServlet {
+public class DongVatServlet extends HttpServlet {
 
     private DongVatRepository dongVatRepository = new DongVatRepository();
 
